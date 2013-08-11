@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Weekly Score Detail" android:id="@+id/detailsItem"></item>
+    <item android:title="Score History" android:id="@+id/historyItem"></item>
+</menu>

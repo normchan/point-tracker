@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">PointTracker</string>
+    <string-array name="children_names">
+        <item>Timothy</item>
+        <item>Rebecca</item>
+        <item>Derrick</item>
+        <item >Ryan</item>
+    </string-array>
+    <string name="week_of">Week Ending: </string>
+    <string name="current_points">Current Points: </string>
+    <string name="child_name">Child\'s Name: </string>
+    <string name="update_points">Update Points</string>
+    <string name="adjustment">Adjustment: </string>
+    <string-array name="adjustments">
+        <item>--Select One--</item><item>-10</item><item>-5</item>
+        <item>+5</item><item>+10</item><item>-25</item>
+        <item>-20</item>
+        <item>-15</item>
+        
+        
+        <item>+15</item>
+        <item>+20</item>
+        <item>+25</item>
+        
+        
+    </string-array>
+    <string name="activity">Activity: </string>
+    <string name="reason">Reason: </string>
+    <string-array name="reasons">
+        <item>--Select One--</item><item >Talking with Mouth Full</item><item >Ignored First Instruction</item>
+        <item>Compromised</item><item>No Resolution</item><item>Other</item>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </string-array>
+    <string name="notes">Notes: </string>
+    <string name="cancel">Cancel</string>
+    <string name="date">Date: </string>
+    <string-array name="parental_misbehaviors">
+        <item >--Select One--</item><item >Talking with mouth full</item>
+        
+        <item >Yelling</item>
+    </string-array>
+</resources>

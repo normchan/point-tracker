@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/scrollView1">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:isScrollContainer="true">
+		<TableLayout android:id="@+id/tableLayout1" android:layout_width="match_parent" android:layout_height="wrap_content">
+		    <TableRow android:id="@+id/tableRow5" android:layout_width="match_parent" android:layout_height="wrap_content">
+		        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/weekOfLabel" android:text="@string/week_of"></TextView>
+		        <TextView android:layout_height="wrap_content" android:text="TextView" android:layout_width="wrap_content" android:id="@+id/weekOfValue" android:paddingLeft="2dip"></TextView>
+		    </TableRow>
+		    <TableRow android:id="@+id/tableRow5" android:layout_width="match_parent" android:layout_height="wrap_content">
+		        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/childNameLabel" android:text="@string/child_name"></TextView>
+		        <TextView android:layout_height="wrap_content" android:text="TextView" android:layout_width="wrap_content" android:id="@+id/childNameValue" android:paddingLeft="2dip"></TextView>
+		    </TableRow>
+		    <TableRow android:id="@+id/tableRow5" android:layout_width="match_parent" android:layout_height="wrap_content">
+		        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/pointsLabel" android:text="@string/current_points"></TextView>
+		        <TextView android:layout_height="wrap_content" android:text="TextView" android:layout_width="wrap_content" android:id="@+id/pointsValue" android:paddingLeft="2dip"></TextView>
+		    </TableRow>
+		    <TableRow android:id="@+id/tableRow1" android:layout_width="match_parent" android:layout_height="wrap_content">
+		        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/adjustmentLabel" android:text="@string/adjustment"></TextView>
+		        <Spinner android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/adjustmentSpinner"></Spinner>
+		    </TableRow>
+		    <TableRow android:id="@+id/tableRow2" android:layout_width="match_parent" android:layout_height="wrap_content">
+		        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/reasonLabel" android:text="@string/reason"></TextView>
+		        <Spinner android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/reasonSpinner"></Spinner>
+		    </TableRow>
+		    <TableRow android:id="@+id/tableRow3" android:layout_width="match_parent" android:layout_height="wrap_content">
+		        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/activityLabel" android:text="@string/activity"></TextView>
+		        <EditText android:layout_height="wrap_content" android:id="@+id/activityField" android:layout_width="220dip" android:singleLine="true"></EditText>
+		    </TableRow>
+		    <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+		        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/notesLabel" android:text="@string/notes"></TextView>
+		        <EditText android:id="@+id/notesField" android:layout_width="220dip" android:lines="4" android:layout_height="wrap_content"></EditText>
+		    </TableRow>
+		</TableLayout>
+	    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:orientation="horizontal" android:layout_width="match_parent">
+	        <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/updateButton" android:text="@string/update_points"></Button>
+	        <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/cancelButton" android:text="@string/cancel"></Button>
+	    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+    
